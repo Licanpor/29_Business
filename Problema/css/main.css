@@ -1,0 +1,15 @@
+header{
+	background-image: url("../image/large.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	max-width: 100%;
+	max-height:500px;
+	
+}
+header, header li>a{
+	color:white;
+}
+.bg-a{
+	background: 
+}
