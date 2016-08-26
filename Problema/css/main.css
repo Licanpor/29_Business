@@ -1,23 +1,25 @@
 a{
 	text-decoration: none !important;
 }
-header{
+.bg-h{
 	background-image: url("../image/large.jpg");
-	
-	/*max-width: 100%;
-	max-height:500px;
-	*/
 }
-header, header li>a{
+.fltr{
+	background-color: rgba(0,0,0,0.7);
+}
+.t-w, header li>a{
 	color:white;
 }
-header, .bg-img1, .bg-img2{
-	background-size: cover;
+.bg-h, .bg-img1, .bg-img2{
+	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: center;
 }
+.bg-p{
+	background-color:rgba(40,96,144,0.7);
+}
 .bg-a{
-	background: 
+	background:#286090; 
 }
 .bg-img1{
 	background-image: url("../image/sec-2.jpg");	
@@ -34,4 +36,10 @@ hr#arw:after {
 	position: relative;
 	/*top: -30px;*/
 	/*background: none;*/
+}
+h1{
+	padding: 10% 20%;
+}
+.btn{
+	margin: 4%;
 }
