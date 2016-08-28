@@ -1,45 +1,139 @@
 a{
 	text-decoration: none !important;
 }
+*{
+	box-sizing: border-box;
+}
+
+
+/*MARGIN*/
+.box, section.text-center{
+	margin: 3% 0%;
+}
+.box h4{
+	margin:10% !important;
+}
+.btn{
+	margin: 4%;
+}
+
+
+
+/*ICONOS*/
+.icon, h2{
+	color:#3c94c9 !important;
+}
+.icon{
+	font-size: 40px;
+}
+.icon-pencil, .icon-tools, .icon-magnifying-glass{
+	font-size:25px;
+	color: white;
+}
+.bg-a{
+	background-color:#3c94c9;
+	width: 50px;
+	height: 50px;
+}
+hr#arw + img,.bg-a .icon-pencil, .bg-a .icon-tools, .bg-a .icon-magnifying-glass{
+	position: absolute;
+  	top: 50%; 
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+}
+
+.bg-a, .shd, hr#arw{
+	position: relative;
+} 
+.bg-a, .shd{
+	border-radius: 50%;
+}
+.shd{
+
+}
+/*PADDING*/
+.box{
+	padding: 0% 8% !important;
+}
+h1{
+	padding: 10% 20%;
+}
+.navbar-brand{
+	padding: 1% !important;
+}
+
+
+
+/*BACKGROUND*/
 .bg-h{
 	background-image: url("../image/large.jpg");
 }
+.bg-img1{
+	background-image: url("../image/sec-2.jpg");	
+}
+
 .fltr{
 	background-color: rgba(0,0,0,0.7);
 }
-.t-w, header li>a{
-	color:white;
-}
-.bg-h, .bg-img1, .bg-img2{
-	background-size: 100%;
+.bg-h, .bg-img1{
+	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 }
 .bg-p{
 	background-color:rgba(40,96,144,0.7);
+	padding: 3% 0%;
 }
-.bg-a{
-	background:#286090; 
+
+
+
+/*COLORES*/
+h4{
+	color: #3c65c9 !important;
 }
-.bg-img1{
-	background-image: url("../image/sec-2.jpg");	
+.t-w, header li>a{
+	color:white;
 }
-.bg-img2{
-	background-image: url("../image/banner.jpg");		
+
+
+
+/*H2+IMG*/
+.fl{
+	/*float: left;*/
+	/*clear: fixed;*/
 }
-hr#arw {
-	border: 1px solid;
-	text-align: center;
+.logo{
+	width: 50%;
+	margin-top: 10px;
+	position: absolute;
+	right: 3%;
+	top:5%;
+	overflow: hidden;
 }
-hr#arw:after {
-	content: url("../image/separador.png");
+.box2{
+	box-sizing: border-box;
+	margin-bottom: 3%;
+	padding: 3%;
+}	
+
+
+
+/*HR+IMG*/
+hr#arw{
 	position: relative;
-	/*top: -30px;*/
-	/*background: none;*/
 }
-h1{
-	padding: 10% 20%;
+hr#arw + img {
+	width: 65px;
+
 }
-.btn{
-	margin: 4%;
-}
+
+
+
+
+
+
+
+
+
+
+

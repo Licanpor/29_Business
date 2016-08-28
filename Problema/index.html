@@ -13,10 +13,9 @@
 	<body>
 	<div class="container-fluid bg-h">
 		<header class="fltr">
-			<div class="container">
 				<div class="row">
-					<nav class="nav" role="navigation">
-						<div class="col-sm-12 col-lg-4">
+					<nav class="navbar navbar-inverse navbar-fixed-top tnspt" role="navigation">
+						<div class="col-lg-4">
 							<div class="navbar-header">
 								<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-1">
 									<span class="sr-only">Menu</span>
@@ -25,17 +24,17 @@
 									<span class="icon-bar"></span>
 								</button>
 								<a href="#" class="navbar-brand">
-									<img src="image/user-r.png" alt="logo">
+									<img class="img-responsive" src="image/user-r.png" alt="logo">
 								</a>
 							</div>	
 						</div> 
-						<div class="col-sm-12 col-lg-8">
-							<div class=" navbar-collapse navbar-right" id="navbar-1">
-								<ul class="nav navbar-nav">
-									<li><a href="">¿Qué me ofrece?</a></li>
-									<li><a href="">¿Cómo funciona?</a></li>
-									<li><a href="">¿Por qué usarlo?</a></li>
-									<li><a href="">Contáctanos?</a></li>
+						<div class="col-lg-8">
+							<div class="collapse navbar-collapse navbar-right" id="navbar-1">
+								<ul class="nav navbar-nav text-uppercase">
+									<li><a href="">sobre mí</a></li>
+									<li><a href="">servicios</a></li>
+									<li><a href="">mis trabajos</a></li>
+									<li><a href="">contáctame</a></li>
 								</ul>
 							</div>
 						</div>
@@ -46,13 +45,12 @@
 						<h1 class="text-center t-w">Obtén videos de persona reales utilizandotu sitio web, en una hora.</h1>
 					</div>
 				</div>
-			</div>
 			<div class="row bg-p">
-				<div class="col-sm-12 col-lg-6 text-right">
+				<div class="col-sm-6 col-lg-6 text-right">
 					<h3 class="text-uppercase t-w">prueba gratuita</h3>
 					<p class="t-w">Obtén un video gratis de 5 minutos</p>
 				</div>
-				<div class="col-sm-12 col-lg-6">
+				<div class="col-sm-6 col-lg-6">
 					<a href="#modal1" class="btn btn-lg btn-primary" data-toggle="modal">Prueba Gratis</a>
 					<div class="modal fade" id="modal1">
 						<div class="modal-dialog">
@@ -76,10 +74,11 @@
 											<textarea class="form-control" id="message-text"></textarea>
 										</div>
 									</form>
+									<button type="button" class="btn-lg btn btn-primary">Enviar</button>
 								</div>
 								<div class="modal-footer">
-									<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-									<button type="button" class="btn btn-primary">Enviar</button>
+									<span>Powered by<a href="#">Squad 6</a></span>
+									<span><a href="#">Report Abuse</a></span>
 								</div>
 							</div>
 						</div>
@@ -90,59 +89,74 @@
 	</div>
 	<div class="container-fluid">
 		<section class="text-center">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-12">
-						<h2>Nuestros Servicios</h2>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-lg-4"><span class="" ></span><h4>Pruébalo gratis</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p></div>
-					<div class="col-lg-4"><span class="" ></span><h4>Compra el servicio completo</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p></div>
-					<div class="col-lg-4"><span class="" ></span><h4>Obten el resultado en un día</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p></div>
-				</div>
-			</div>
-			<a href="#"><hr id="arw"></a>
-		</section>
-		<section>
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-6">
-						<span class=""><h2>Ejemplo de</h2></span><a href="#"><img src="image/logo-2.jpg" alt="Logo"></a>
-						<p>En este  video te damos un ejemplo de un integrante de nuestro panel evaluado la experiencia de usuario en:</p>
-						<p><a href="#">mimediamanzana.com</a></p>
-						<p>El objetivo de User Testing 360° es identificar situaciones confusas de los usuarios en su web y describir soluciones que garanticen una experiencia satisfactoria.</p>
-						<img src="image/flecha.png" alt="flecha">
-					</div>
-					<div class="col-lg-6">
-						<iframe width="560" height="315" class="img-responsive" src="https://www.youtube.com/embed/u7MDfG9ZJTU" frameborder="0" allowfullscreen></iframe>
-					</div>
+			<div class="row">
+				<div class="col-sm-12 col-lg-12">
+					<h2>Nuestros Servicios</h2>
 				</div>
 			</div>
 			<div class="row">
-				<hr>
-				<div class="col-lg-6 bg-img1"><!-- BACKGROUNG IMAGE <img src="image/sec-2.jpg" alt=""> -->
-					<div class="bg-a">
-						<span class="icon-pencil"></span>
+				<div class="col-lg-4 box">
+					<div class="shd"><span class="icon icon-video"></span></div>
+					<h4>Pruébalo gratis</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+				</div>
+				<div class="col-lg-4 box">
+					<div class="shd"><span class="icon icon-clock" ></span></div>
+					<h4>Compra el servicio completo</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+				</div>
+				<div class="col-lg-4 box">
+					<div class="shd"><span class="icon icon-documents" ></span></div>
+					<h4>Obten el resultado en un día</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-12">
+					<hr id="arw">
+					<img class="img-responsive" src="image/separador.png">
+				</div>	
+			</div>		
+		</section>
+		<section class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="box2">
+						<h2 class="fl">Ejemplo de</h2><a href="#"><img class="img-responsive logo" src="image/logo-2.jpg" alt="Logo"></a>
 					</div>
-					<div class="bg-a">
-						<span class="icon-tools"></span>
-					</div>
-					<div class="bg-a">
-						<span class="icon-magnifying-glass"></span>
-					</div>
+					<p>En este  video te damos un ejemplo de un integrante de nuestro panel evaluado la experiencia de usuario en:</p>
+					<p><a href="#">mimediamanzana.com</a></p>
+					<p>El objetivo de User Testing 360° es identificar situaciones confusas de los usuarios en su web y describir soluciones que garanticen una experiencia satisfactoria.</p>
+					<img class="img-responsive center-block" src="image/flecha.png" alt="flecha">
 				</div>
 				<div class="col-lg-6">
+					<iframe width="560" height="315" class="embed-responsive" src="https://www.youtube.com/embed/u7MDfG9ZJTU" frameborder="0" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="row">
+			<hr>
+			<div class="col-lg-6 bg-img1"><!-- BACKGROUNG IMAGE <img src="image/sec-2.jpg" alt=""> -->
+				<div class="bg-a">
+					<span class="icon-pencil"></span>
+				</div>
+				<div class="bg-a">
+					<span class="icon-tools"></span>
+				</div>
+				<div class="bg-a">
+					<span class="icon-magnifying-glass"></span>
+				</div>
+			</div>
+			<div class="col-lg-6">
 				<div class="row">
 					<div class="col-lg-12">
 						<h3>Lo quiero ¿Qué hago?</h3>
-						<h4 class="">Paso 1: Envíanos tu link</h4>
+						<h4>Paso 1: Envíanos tu link</h4>
 						<p>Al darle click al botón de prueba coloca tu nombre y tu correo electrónico, a donde enviaremos el video y el informe con el feedback</p>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-lg-12">
-						<h4 class="">Paso 2: Describe a tu público objetivo</h4>
+						<h4>Paso 2: Describe a tu público objetivo</h4>
 						<p>Describe las acciones que quieres que evaluemos, por ejemplo:</p>
 						<ul>
 							<li>A primera vista, ¿de qué crees que trata la página?</li>
@@ -153,7 +167,7 @@
 				</div>
 				<div class="row">
 					<div class="col-lg-12">
-						<h4 class="">Paso 3: Recibe un video y el feedback completo</h4>
+						<h4>Paso 3: Recibe un video y el feedback completo</h4>
 						<p>Recibe un combo de 5 videos y un infotme detallado con las captaciones de usabilidad de tu producto.</p>
 					</div>
 				</div>
@@ -164,7 +178,9 @@
 			<div class="container">
 			<div class="row">
 				<div class="col-lg-6">
-					<span class=""><h2>Por qué usar</h2></span><a href="#"><img src="image/logo-2.jpg" alt="Logo"></a>
+					<div class="box2">
+						<h2 class="fl">Por qué usar</h2><a href="#"><img class=" img-responsive logo" src="image/logo-2.jpg" alt="Logo"></a>
+					</div>
 					<p>En la era en la que nos encontramos la web se ha convertido la mejor opción para llegar a millones de personas en segundos. Pero, qué pasa si el producto digital que ofreces no es bueno o no se entiende, pierdes esta enorme oportunidad. Con <a href="#">User Testing 360°</a> puedes entender la experiencia de uso de tu producto para que satisfaga las necesidades de todos tus usuarios. Con <a href="#">User Testing 360°</a> pordrás entender: </p>
 					<ul>
 						<li>Cómo tu público objetivo realmente usa tu producto.</li>
@@ -173,49 +189,54 @@
 					</ul>
 					<p><a href="#">"User Testing 360°"</a> te ayudará a responder estar preguntas y muchas más. Es el toque final perfecto para tu producto digital.</p>
 				</div>
-				<div class="col-lg-6 bg-img2"><!-- BACKGROUND IMAGE --></div>
-			</div>
-			</div>
-				<div class="row bg-p fltr">
-					<div class="col-sm-12 col-lg-6 text-right">
-						<h2 class="text-uppercase t-w">prueba gratuita</h2>
-						<p class="t-w"><small>Obtén un video gratis de 5 minutos</small></p>
+				<div class="row">
+					<div class="col-lg-6">
+						<img class="img-responsive" src="image/banner.jpg">
 					</div>
-					<div class="col-sm-12 col-lg-6">
-						<a href="#modal1" class="btn btn-primary" data-toggle="modal">Prueba Gratis</a>
-						<div class="modal fade" id="modal1">
-							<div class="modal-dialog">
-								<div class="modal-content">
-									<div class="modal-header">
-										<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        								<span><h4 class="modal-title" id="modal1">Formulario</h4><img class="img-responsive" src="image/logo-2.jpg" alt="logo"></span>
-									</div>
-									<div class="modal-body">
-										<form>
-											<div class="form-group">
-												<label for="recipient-name" class="control-label">Nombre:</label>
-												<input type="text" class="form-control" id="recipient-name">
-											</div>
-											<div class="form-group">
-												<label for="recipient-name" class="control-label">E-mail:</label>
-												<input type="text" class="form-control" id="recipient-name">
-											</div>
-											<div class="form-group">
-												<label for="message-text" class="control-label">Déjame tu URL:</label>
-												<textarea class="form-control" id="message-text"></textarea>
-											</div>
-										</form>
-									</div>
-									<div class="modal-footer">
-										<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-										<button type="button" class="btn btn-primary">Enviar</button>
-									</div>
+				</div>
+			</div>
+			</div>
+				<div class="row bg-p">
+				<div class="col-sm-6 col-lg-6 text-right">
+					<h3 class="text-uppercase t-w">prueba gratuita</h3>
+					<p class="t-w">Obtén un video gratis de 5 minutos</p>
+				</div>
+				<div class="col-sm-6 col-lg-6">
+					<a href="#modal1" class="btn btn-lg btn-primary" data-toggle="modal">Prueba Gratis</a>
+					<div class="modal fade" id="modal1">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        							<span><h4 class="modal-title" id="modal1">Formulario</h4><img class="img-responsive" src="image/logo-2.jpg" alt="logo"></span>
+								</div>
+								<div class="modal-body">
+									<form>
+										<div class="form-group">
+											<label for="recipient-name" class="control-label">Nombre:</label>
+											<input type="text" class="form-control" id="recipient-name">
+										</div>
+										<div class="form-group">
+											<label for="recipient-name" class="control-label">E-mail:</label>
+											<input type="text" class="form-control" id="recipient-name">
+										</div>
+										<div class="form-group">
+											<label for="message-text" class="control-label">Déjame tu URL:</label>
+											<textarea class="form-control" id="message-text"></textarea>
+										</div>
+									</form>
+									<button type="button" class="btn-lg btn btn-primary">Enviar</button>
+								</div>
+								<div class="modal-footer">
+									<span>Powered by<a href="#">Squad 6</a></span>
+									<span><a href="#">Report Abuse</a></span>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</section>
+			</div>
+		</section>
 		<footer>
 			<div class="container">
 				<div class="row">
