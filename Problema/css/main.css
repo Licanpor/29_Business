@@ -1,0 +1,150 @@
+a{
+  text-decoration: none !important;
+}
+*{
+  box-sizing: border-box;
+}
+
+
+/*MARGIN*/
+.box, section.text-center{
+  margin: 3% 0%;
+}
+.box h4{
+  margin:10% !important;
+}
+.btn{
+  margin: 4%;
+}
+.col-lg-12 h3, .col-lg-6 .row .col-lg-12, .mg-b{
+  margin-bottom: 5% !important;
+}
+.mg-l{
+  margin-left: 10%;
+}
+
+
+
+/*PADDING*/
+.box{
+  padding: 0% 8% !important;
+}
+h1{
+  padding: 10% 20%;
+}
+.navbar-brand, footer{
+  padding: 1% !important;
+}
+.pd-0, .container-fluid{
+  padding: 0 !important;
+}
+.pd-lr{
+  padding-left: 5%;
+}
+.bg-p{
+  padding: 3% 0%;
+}
+
+
+/*ICONOS*/
+.icon{
+  font-size: 40px;
+}
+.icon-pencil, .icon-tools-2, .icon-magnifying-glass{
+  font-size:25px;
+}
+.bg-a{
+  background-color:#3c94c9;
+  width: 50px;
+  height: 50px;
+  left: 95%;
+}
+.a1{
+  transform: translate(20%, 120%);
+}
+.a2{
+  transform: translate(20%, 250%);
+}
+.a3{
+  transform: translate(20%, 480%);
+}
+.icon-video, .icon-clock, .icon-documents, .logo, .bg-a, hr#arw + img, .bg-a .icon-pencil, .bg-a .icon-tools-2, .bg-a .icon-magnifying-glass{
+  position: absolute;
+}
+hr#arw + img, .icon-video, .icon-clock, .icon-documents, .bg-a .icon-pencil, .bg-a .icon-tools-2, .bg-a .icon-magnifying-glass{
+  top: 50%; 
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.bg-a, .shd, hr#arw{
+  position: relative;
+} 
+.bg-a, .shd{
+  border-radius: 50%;
+}
+.btn{
+  border: 1px solid white !important;
+}
+.shd{
+  width: 100px;
+  height: 100px;
+  box-shadow: -1px 3px 8px -2px rgba(50, 50, 50, 0.75);
+}
+
+
+
+/*HR+IMG*/
+hr#arw + img {
+  width: 65px;
+}
+iframe{
+  width: 100%;
+}
+
+
+
+/*BACKGROUND*/
+.bg-h{
+  background-image: url("../image/large.jpg");
+}
+.bg-img1{
+  background-image: url("../image/sec-2.jpg");
+}
+.fltr0, .bg-img1{
+  height: 440px;
+}
+.fltr, .fltr0{
+  background-color: rgba(0,0,0,0.7);
+}
+.bg-h, .bg-img1{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.bg-p, a.btn{
+  background-color:rgba(40,96,144,0.7) !important;
+}
+
+
+
+/*COLORES*/
+h4, footer p a{
+  color: #3c65c9 !important;
+}
+.icon, h2{
+  color:#3c94c9 !important;
+}
+.icon-pencil, .icon-tools-2, .icon-magnifying-glass, footer, .t-w, header li>a{
+  color:white;
+}
+footer{
+  background-color: #1f1f1f;
+}
+
+
+
+/*H2+IMG*/
+.logo{
+  width: 50%;
+  transform: translate(60%, -85%);
+}
